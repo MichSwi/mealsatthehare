@@ -1,0 +1,112 @@
+<!DOCTYPE html >
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<title>Meals at the Hare</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+
+function printBanner()
+{
+  data = new Date();
+  godzina = data.getHours();
+  if(godzina > 22 || godzina < 6) num = 2;
+  else if(godzina >= 6 && godzina <= 22) num = 1;
+ 
+  name = "banner" + num + ".jpg";
+  tekst = "<IMG SRC='" + name + "'>";
+  document.write(tekst);
+}
+
+	</SCRIPT>
+	</head>
+	<body>
+
+	<div id="glownypojemnik">
+		
+		<div id="naglowek">
+			<a href="index.html">
+			<div id="logo">
+				<svg height="110" width="400">
+					<defs>
+					<linearGradient id="grad1" x1="0%" y1="0%" x2="50%" y2="0%">
+					<stop offset="0%"
+					style="stop-color:rgb(249,163,203);stop-opacity:1" />
+					<stop offset="100%"
+					style="stop-color:rgb(209,210,212);stop-opacity:1" />
+					</linearGradient>
+					</defs>
+					<ellipse cx="125" cy="70" rx="120" ry="33" fill="url(#grad1)" />
+					<text fill="#ffffff" font-size="25" font-family="sans-serif" x="25" y="80">Meals at the Hare</text>
+		
+				</svg>
+			</div>
+			</a>
+			<div id="podstrony">
+				<ul>
+				<li><a href="kontaktirezerwacje.html">KONTAKT I REZERWACJE</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="onas.html" color: black >O nas</a></li>
+				
+				</ul>
+			</div>
+			
+			
+		</div>
+		<center>
+		<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+
+			printBanner();
+
+		</SCRIPT>
+		</center>
+		<div id="szarakolumna1">
+			<center><p>Masz ochotę coś zjeść, burczy Ci w brzuchu? Świetnie trafiłeś. Nasz szef nie jest obcy w kuchni jak i na świecie. <br> <br>
+			Nasza wiedza i doświadczenie nie ma w sobie równych,potencjał pracowników nie ma granic, a cały personel rozwija się razem i traktuje jak wielka rodzina.
+			Gości traktujemy z szacunkiem jakim się im należy, więc i ty traktuj im nas, a spędzimy świetny wspólny czas. Dodatkowo możemy się założyć, że znajdziesz coś dla siebie,
+			jako że nasza różnorodność bije konkurencję na kwaśne jabłko. <br><br>
+			Zawitaj a na pewno nie pożałujesz.<br>
+			Jesteśmy czynni 7 dni w tygodniu godzinach 6-22.
+			<br><br> </p></center>
+			
+		</div>
+		
+		<div id="kuchnie">
+		<center>
+		
+			<div id="lewastrona">
+					<h1> Zając w Sombreo </h1>
+					<p>Masz ochotę na coś pikantnego?<br> W takim razie nasza Mekszykańska kuchnia jest dla ciebie. Taco, Bouritto to nieliczne smakołyki, które możesz znaleźć
+					w tej części menu. Ostrzegamy, że nie jest ono dla osób o słabych nerwach i kiepskiej tolerancji na ostrość, oczywiście znajdzie się kilka pozycji
+						i dla takich osób, ale jednak pierwszeństwo mają miłośnicy bólu</p><br>
+					
+					<h1> Krzywy Zając W PiZZie </h1>
+					<p>Nie oszukujmy się, statystycznie większość z was od razu szukała tej kuchni. Pizza o średnicy długości uszu zająca, podłużne jak uszy frytki, ciągnące i długie
+					jak wąsy najróżniejsze makarony, jak i winka dla smakoszy. Dodatkowo używając hasła "but zająca" będziesz miał okazję kupić kieliszek oryginalnego włoskiego 
+					limonchello</p><br>
+			</div>
+			
+			
+			<div id="prawastrona">
+					<h1>Bonjoure Le' Hare</h1>
+					<p>Malownicze jak dzieła Jean-Baptiste Pillement przysmaki. Bagietki jak prosto z piekarni spod Wieży Eiffla, oraz jak przystało na steerotypy
+						nie może zabraknąć ślimaków jak i doskonale przyrządzonych żab. Dodatkowo grzechem byłoby zapomnieć o przysmaku bogów- makaronikach.</p><br><br><br><br>
+					
+					<h1> Zające nie znają granic </h1>
+					<p>Oczywiście to nie wszystko, jeśli chcesz poznać dodatkowę kuchnie lub więcej szczegółów to koniecznie zajrzyj do menu, albo przyjdź i przekonaj się na żywo</p><br>
+			</div>
+			
+		</center>
+		</div>
+		<div id="szarakolumna2">
+		<center> 
+		<h1> Meals at hare zaprasza/ Meals at hare invites you </h1>
+		<h2>| <a href="https://www.google.com/maps/place/32%C2%B016'55.2%22N+64%C2%B053'12.1%22W/@32.2820059,-64.8911867,17z/data=!3m1!4b1!4m14!1m7!3m6!1s0x8a2d17aed909b111:0xd3430c6667717a0c!2sHog+Bay,+Bermudy!3b1!8m2!3d32.269318!4d-64.87632!3m5!1s0x0:0x3a86d17b5acbb5c7!7e2!8m2!3d32.2820056!4d-64.8867024">Przyjedź do nas/Come to us.</a> | <a href="callto://23 581 321">Zadzwoń/Call us: +11 23 581 321 </a> </h2></center>
+		</div>
+  
+		
+	</div>
+
+</body>
+</html>

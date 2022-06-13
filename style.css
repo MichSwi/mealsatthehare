@@ -1,0 +1,170 @@
+ html {
+    margin:0;
+    padding:0;
+    background-color: grey;
+    color:grey;
+	font-family:'Open Sans', sans-serif;
+  }
+  body {
+    min-width:400px;
+  }
+ 
+  a:link{
+    color:pink;
+    text-decoration:none
+  }
+  a:visited{
+    color:pink;
+    text-decoration:none
+  }
+  a:hover{
+    color:pink;
+    text-decoration:none;
+    background-color:#77a;
+
+  }
+  #kuchnie a:link{
+    color:pink;
+    text-decoration:none
+  }
+  #kuchnie a:visited{
+    color:pink;
+    text-decoration:none
+  }
+  #kuchnie a:hover{
+    color:pink;
+    text-decoration:none;
+    background-color:#77a;
+  }
+  #glownypojemnik {
+    background:grey;
+    margin:0 auto;
+    width:1630px;
+  }
+  #logo {
+	width: 300px;
+	padding: 0px 0px 0px 200px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+  }
+  #naglowek {
+    background:grey;
+	padding: 0;
+	height: 135px;
+	color: white;
+  }
+  #naglowek h1 {
+    padding:0px;
+    margin:0;
+	text-align: center;
+  }
+  #podstrony {
+  padding: 50px 265px 0px 0px;
+  }
+  ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	float: right;
+	padding: 0px 30px 0px 30px;
+	font-size: 20px;
+	display: inline;
+	font-weight: 800;
+	white-space: nowrap;
+}
+  #szarakolumna1 {
+    background:grey;
+    width:auto;
+	color: pink;
+	margin: 0 0 0 0;
+  }
+  #szarakolumna1 p {
+	  line-height: 2;
+	  padding: 80px;
+	  font-size: 23px;
+	  text-align: justify;
+	  margin: 0 0 0 0;
+	  width: 1300px;
+  }
+  #kuchnie {
+	  background:pink;
+	  padding-bottom: 10px;
+  }
+  
+  #lewastrona {
+	  background:pink;
+	  float:left;
+	  width:820px;
+  }
+  
+  #lewastrona p {
+	  padding: 0px 100px 0px 100px;
+	  font-size: 25px;
+  }
+  
+  #prawastrona {
+	  background:pink;
+	  float:right;
+	  width:810px;	
+	  height:684px;
+  }
+  
+  #prawastrona p {
+	  padding: 0px 100px 0px 150px;
+	  font-size: 25px;
+  }
+  
+  #szarakolumna2  {
+	  line-height: 1.5;
+	  text-align: justify;
+	  margin: 0px auto;
+	  padding: 30px 270px;
+	  color: pink;
+	  float: left;
+	  font-size: 22px;
+  }
+  #szarakolumnam  {
+	  line-height: 1.5;
+	  text-align: justify;
+	  margin: 0px;
+	  padding: 30px 725px;
+	  color: pink;
+	  float: rigth;
+	  font-size:60px;
+  }
+	   #szarakolumnakr  {
+	  line-height: 1.5;
+	  text-align: justify;
+	  margin: 0px;
+	  padding: 30px 510px;
+	  color: pink;
+	  float: rigth;
+	   font-size:60px;
+	   }
+	   #lewastronakr {
+	  background:pink;
+	  float:left;
+	  width:820px;
+	  height:684px;
+  }
+	  #kalendarz {width: 250px;
+	  p {text-align: right;
+		li {display: inline; padding:2px 5px; 
+	.akt {color: #990000; font-weight: bold;
+	.hidden {visibility: hidden;}
+  }
+  #szarakolumna1 H1 {
+	  letter-spacing: 5px;
+	  margin: 0px;
+	  padding: 70px;
+	  background: grey;
+	  color: pink;
+	  font-weight: 10;
+  }
+  
+
+ 
